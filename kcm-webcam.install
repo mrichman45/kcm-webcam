@@ -1,0 +1,9 @@
+post_install() {
+  echo ":: To reapply your webcam settings at login and when the camera switch is turned on, run (as your user, not root):"
+  echo "   systemctl --user enable --now webcam-settings.service"
+}
+
+post_upgrade() {
+  echo ":: If the Webcam page still shows old behaviour, close and reopen System Settings."
+  echo ":: Restart the background service with: systemctl --user restart webcam-settings.service"
+}

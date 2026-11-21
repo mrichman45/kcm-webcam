@@ -1,0 +1,8 @@
+# CMake build output
+build/
+
+# makepkg working folders and results
+src/
+pkg/
+*.pkg.tar.*
+*.log

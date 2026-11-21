@@ -1,0 +1,10 @@
+{
+    "KPlugin": {
+        "Description": "Adjust brightness, exposure, focus and other webcam settings",
+        "Icon": "camera-web",
+        "Name": "Webcam"
+    },
+    "X-KDE-Keywords": "webcam,camera,brightness,contrast,exposure,focus,white balance,v4l2",
+    "X-KDE-System-Settings-Parent-Category": "removable-storage",
+    "X-KDE-Weight": 60
+}
